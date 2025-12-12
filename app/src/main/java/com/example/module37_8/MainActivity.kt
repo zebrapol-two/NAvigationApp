@@ -15,7 +15,6 @@ class MainActivity : ComponentActivity() {
         setContent {
             Module378Theme {
                 Surface {
-                    // Навигация приложения
                     NavGraph(applicationContext)
                 }
             }
