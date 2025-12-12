@@ -5,19 +5,13 @@
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="checkbox_toggle_changes_status()">
+      <SelectionState runConfigName="TodoCheckboxTest">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="checkbox_togglesStateOnClick()">
+      <SelectionState runConfigName="TodoListDisplaysAllItemsTest">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="testCheckboxForId1_InitialStateIsUnchecked()">
-        <option name="selectionMode" value="DROPDOWN" />
-      </SelectionState>
-      <SelectionState runConfigName="todoList_displaysAllThreeItemsFromJson()">
-        <option name="selectionMode" value="DROPDOWN" />
-      </SelectionState>
-      <SelectionState runConfigName="navigate_ListToDetailAndBackToList()">
+      <SelectionState runConfigName="TodoNavigationListDetailListTest">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>
