@@ -25,12 +25,18 @@ import androidx.compose.ui.unit.sp
 import com.example.todolist.domain.model.TodoItem
 
 @Composable
-fun TodoRow(item: TodoItem, onToggle: (Int) -> Unit, onClick: (Int) -> Unit) {
+fun TodoRow(
+    item: TodoItem,
+    highlightCompleted: Boolean,
+    onToggle: (Int) -> Unit,
+    onClick: (Int) -> Unit
+) {
+    val backgroundColor = if (item.isCompleted && highlightCompleted) Color(0xFFC8E6C9) else Color(0xFFF0F0F0)
     Row(
         modifier = Modifier
             .fillMaxWidth()
             .clip(RoundedCornerShape(8.dp))
-            .background(Color(0xFFF0F0F0))
+            .background(backgroundColor)
             .clickable { onClick(item.id) }
             .padding(12.dp)
             .testTag("todo_row_${item.id}"),
